@@ -11,21 +11,12 @@
   </header>
     <main>
     <nav>
-      <ul>
-        <li>
-          <a class="active" href="#">Главная</a></li>
-        <li>
-        <li>
-          <a href="#">урок 1</a></li>
-        <li>
-          <a href="#">урок 2</a></li>
-        <li class="right">
-          <a href="https://github.com/yvikt/NIX_beginner/commit/0937a2afef41efcdf3146c14d375d55111bd48c0">commit</a>
-        </li>
-      </ul>
+      <?php include 'templates/nav.php'; ?>
     </nav>
       <section>
-        <?php echo 'content'; ?>
+        <div class="container">
+          <?php include 'main.php'; ?>
+        </div>
       </section>
     </main>
   <footer>
