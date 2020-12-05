@@ -7,6 +7,7 @@ $items = [
   '/lesson-1' => 'урок-1',
   '/lesson-2' => 'урок-2',
   '/lesson-3' => 'урок-3',
+  '/lesson-3a' => 'урок-3a',
   'https://github.com/yvikt/NIX_beginner/commits/master' => 'commits'
 ];
 
