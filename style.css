@@ -37,11 +37,11 @@ section {
 }
 .multiplication-table {
   margin: 10px;
+  padding: 5px;
   border: black 1px solid;
 }
 .multiplication-table>div {
   width: 125px;
-  margin: 5px;
 }
 footer {
   flex: 0 0 auto;

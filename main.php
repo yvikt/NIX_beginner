@@ -12,6 +12,9 @@ switch ($path) {
   case '/lesson-1':
     echo draw_multiplication_table();
     break;
+  case '/lesson-2':
+    echo draw_multiplication_table(true);
+    break;
   default:
     echo 'Not found';
 }
