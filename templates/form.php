@@ -1,7 +1,7 @@
 <?php
 
 function form_page(){
-  $message = $_POST['message'];
+  $message = htmlspecialchars($_POST['message']);
   $template =
       '<div class="form-container">
         <form class="" method="POST" action="/lesson-3">
@@ -23,7 +23,7 @@ function form_page_2()
   session_start();
 
   if (!empty($_POST["message"])) {
-    $_SESSION["message"] = $_POST["message"];
+    $_SESSION["message"] = htmlspecialchars($_POST["message"]);
     header("Location: ".$_SERVER["REQUEST_URI"]);
     exit;
   }
